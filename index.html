@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style/stylesheet.css" />
+  <!--responsive.css-->
+  <link rel="stylesheet" href="./Css//stylesheet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <title>Portfolio</title>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+
+
+
+  <!-- Sticky Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top custom-navbar shadow">
+    <div class="container">
+      <!-- <a class="navbar-brand text-black fw-bold" href="#">Priya</a> -->
+      <a class="navbar-brand custom-brand" href="#">
+        <span class="brand-circle">P</span> <span style="margin-left:-18px;font-size: 22px;">riya</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link hover-underline text-black active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link hover-underline text-black" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link hover-underline text-black" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link hover-underline text-black" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link hover-underline text-black" href="#experience">Work Experience</a>
+          </li>
+          <li class="nav-item"><a class="nav-link hover-underline text-black" href="#projects">Project Details</a></li>
+          <li class="nav-item"><a class="nav-link hover-underline text-black" href="#awards">Awards</a></li>
+          <li class="nav-item"><a class="nav-link hover-underline text-black" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="split-background">
+
+    <!-- Hero Section -->
+    <section class="hero-wrap d-flex align-items-center justify-content-center">
+      <div class="overlay"></div>
+      <div class="container text-center text-black z-index-2">
+        <span class="subheading">Hey! I am</span>
+        <h1>Priya Hatwar</h1>
+        <h2>
+          I'm a
+          <span class="txt-rotate" style=" color: blue;" data-period="2000"
+            data-rotate='[ "Software Developer.","Front-End Developer.","Web Designer.","UI/Ux Developer.", "Designer."]'></span>
+        </h2>
+      </div>
+
+      <!-- Scroll Down Arrow -->
+      <div class="mouse">
+        <a href="#about" class="mouse-icon">
+          <div class="mouse-wheel"><span class="arrow-down">&#x2193;</span></div>
+        </a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- About target -->
+  <section id="about" class="py-5 AnimationSection">
+    <div class="container">
+      <div class="row align-items-start">
+
+        <h2 class="fw-bold text-center">About</h2>
+        <div class="d-flex justify-content-center">
+          <div class="customunderline"></div>
+        </div>
+
+        <!-- Left: Heading + Description + List -->
+        <div class="col-md-6 mb-4 AnimationSection">
+
+          <div style="margin-top: 50px;">
+            <!-- <p class="text-muted">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+            <p>I have almost 3 years of experience as a skilled front-end developer experienced in creating visually
+              stunning and user-friendly websites and applications. I use UI/UX design principles to deliver
+              high-quality
+              products that meet client expectations.</p>
+
+            <p>
+              As a problem solver and a team player, I’ve successfully delivered projects and requirements that showcase
+              my proficiency in front-end technologies, and database management systems. My passion for staying up to
+              date
+              with industry trends is evident through my ongoing professional development.
+            </p>
+
+            <!-- Button -->
+            <a href="./Assets/Priya_Hatwar_Resume.docx" class="btn btn-primary px-4 py-2 rounded-pill fw-semibold"
+              id="downloadBtn" download="Priya_Hatwar_Resume.pdf">
+              GET CV &rarr;
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right: Image, Icon Row, Description, Button -->
+        <div class="col-md-6 text-center AnimationSection" style="margin-top: 50px;">
+          <img src="./Assets/priya_hatwar.jpg" alt="Priya" class="img-fluid rounded-circle about-img mb-3">
+
+          <!-- Icons Row -->
+          <div class="d-flex justify-content-center gap-3 mb-3 social-icons">
+
+            <!-- <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li> -->
+            <!-- <li>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </li> -->
+            <a href="https://www.linkedin.com/in/priya-hatwar-a62b6421b/" class="icon-link"><i
+                class="fab fa-linkedin-in"></i></a>
+            <!-- <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a> -->
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTgbqjCPrjDdGxlRXGNrDJCMsSXwsvqZSxZxdprnrQnKZZDfbwGnmHpFNlNpSzZDQXZbzq"
+              class="icon-link"><i class="fas fa-envelope"></i></a>
+
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies & Strengths Section -->
+
+  <section class="py-5 AnimationSection" id="hobbies-strengths">
+    <div class="container">
+
+      <div class="row gy-5">
+
+        <!-- Hobbies Column -->
+        <div class="col-lg-6 AnimationSection">
+          <h4 class="text-primary text-center mb-4">Hobbies</h4>
+          <div class="row row-cols-2 g-4 justify-content-center">
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-pink">
+                  <i class="fas fa-music fa-3x"></i>
+                </div>
+                <p class="circle-label">Music</p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-orange">
+                  <i class="fas fa-paint-brush fa-3x"></i>
+                </div>
+                <p class="circle-label">Design</p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-blue">
+                  <i class="fas fa-plane fa-3x"></i>
+                </div>
+                <p class="circle-label">Travel</p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-green">
+                  <i class="fas fa-book-reader fa-3x"></i>
+                </div>
+                <p class="circle-label">Reading</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Strengths Column -->
+        <div class="col-lg-6 AnimationSection">
+          <h4 class="text-primary text-center mb-4">Strengths</h4>
+          <div class="row row-cols-2 g-4 justify-content-center">
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-yellow">
+                  <i class="fas fa-users fa-3x"></i>
+                </div>
+                <p class="circle-label">Teamwork</p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-purple">
+                  <i class="fas fa-lightbulb fa-3x"></i>
+                </div>
+                <p class="circle-label">Problem Solving</p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-orange">
+                  <i class="fas fa-clock fa-3x"></i>
+                </div>
+                <p class="circle-label">Time <br> Management</p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-blue">
+                  <i class="fas fa-brain fa-3x"></i>
+                </div>
+                <p class="circle-label">Quick Learner</p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center AnimationSection">
+              <div class="big-circle text-center">
+                <div class="icon-colored text-green">
+                  <i class="fas fa-smile-beam fa-3x"></i>
+                </div>
+                <p class="circle-label">Positive Attitude,<br>Sincerity & <br>Punctuality.</p>
+              </div>
+            </div>
+
+            <!-- <div class="col d-flex justify-content-center">
+            <div class="big-circle text-center">
+              <div class="icon-colored text-blue">
+                <i class="fas fa-brain fa-3x"></i>
+              </div>
+              <p class="circle-label">Quick Learner</p>
+            </div>
+          </div> -->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Education -->
+  <section id="education" class="AnimationSection">
+    <div class="container py-5">
+      <!-- <h2 class="text-center text-primary mb-5">Education Details</h2> -->
+      <h2 class="fw-bold text-center">Education Details</h2>
+      <div class="d-flex justify-content-center">
+        <div class="customunderline"></div>
+      </div>
+      <div class="row justify-content-center" style="margin-top: 50px;">
+        <!-- Graduate -->
+        <div class="col-md-4 col-sm-6 AnimationSection">
+          <div class="edu-card text-center">
+            <div class="edu-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h4>2022</h4>
+            <div class="edu-title">Graduation (B.Tech - CSE)</div>
+            <div class="edu-subtitle">BABASAHEB AMBEDKAR TECHNOLOGY UNIVERSITY</div>
+            <div class="edu-percent">Cgpa: 9.04</div>
+          </div>
+        </div>
+
+        <!-- HSC -->
+        <div class="col-md-4 col-sm-6 AnimationSection">
+          <div class="edu-card text-center">
+            <div class="edu-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <h4>2018</h4>
+            <div class="edu-title">HSC</div>
+            <div class="edu-subtitle">Pratibha Niketan Mahavidyalaya,<br> Nanded</div>
+            <div class="edu-percent">Percentage: 73.38%</div>
+          </div>
+        </div>
+
+        <!-- SSC -->
+        <div class="col-md-4 col-sm-6 AnimationSection">
+          <div class="edu-card text-center">
+            <div class="edu-icon">
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <h4>2016</h4>
+            <div class="edu-title">SSC</div>
+            <div class="edu-subtitle">Gujarati Highschool, <br> Nanded</div>
+            <div class="edu-percent">Percentage: 91%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-light AnimationSection">
+    <div class="container">
+      <!-- <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Skills</h2>
+      <div class="customunderline mx-auto"></div> -->
+      <h2 class="fw-bold text-center">Skills</h2>
+      <div class="d-flex justify-content-center">
+        <div class="customunderline"></div>
+      </div>
+
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4" style="margin-top: 50px;">
+
+        <!-- HTML -->
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-orange mb-3">
+              <i class="fab fa-html5 fa-3x"></i>
+            </div>
+            <h5>HTML</h5>
+            <!-- <div class="progress mt-2">
+              <div class="progress-bar bg-orange" style="width: 95%;">95%</div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-blue mb-3">
+              <i class="fab fa-css3-alt fa-3x"></i>
+            </div>
+            <h5>CSS</h5>
+            <!-- <div class="progress mt-2">
+              <div class="progress-bar bg-blue" style="width: 90%;">90%</div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-yellow mb-3">
+              <i class="fab fa-js-square fa-3x"></i>
+            </div>
+            <h5>JavaScript</h5>
+            <!-- <div class="progress mt-2">
+              <div class="progress-bar bg-warning" style="width: 85%;">85%</div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- React -->
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-cyan mb-3">
+              <i class="fab fa-react fa-3x"></i>
+            </div>
+            <h5>React</h5>
+            <!-- <div class="progress mt-2">
+              <div class="progress-bar bg-info" style="width: 80%;">80%</div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- Angular -->
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-danger mb-3">
+              <i class="fab fa-angular fa-3x"></i>
+            </div>
+            <h5>Angular</h5>
+            <!-- <div class="progress mt-2">
+              <div class="progress-bar bg-danger" style="width: 75%;">75%</div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-purple mb-3">
+              <i class="fab fa-bootstrap fa-3x"></i>
+            </div>
+            <h5>Bootstrap</h5>
+            <!-- <div class="progress mt-2">
+              <div class="progress-bar bg-purple" style="width: 90%;">90%</div>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- Git -->
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-dark mb-3">
+              <i class="fab fa-git-alt fa-3x"></i>
+            </div>
+            <h5>Git</h5>
+            <!-- <div class="progress mt-2">
+            <div class="progress-bar bg-dark" style="width: 80%;">80%</div>
+          </div> -->
+          </div>
+        </div>
+
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-success  mb-3">
+              <i class="fas fa-cubes fa-3x"></i>
+            </div>
+            <h5>Mendix</h5>
+          </div>
+        </div>
+
+
+        <!-- MS SQL -->
+        <div class="col AnimationSection">
+          <div class="skill-card text-center p-4">
+            <div class="icon-colored text-secondary mb-3">
+              <i class="fas fa-database fa-3x"></i>
+            </div>
+            <h5>MS SQL</h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Work Exeperience -->
+  <section id="experience" class="py-5 AnimationSection">
+    <div class="container">
+      <!-- <h2 class="fw-bold text-center mb-5">Work Experience</h2> -->
+      <h2 class="fw-bold text-center">Work Experience</h2>
+      <div class="d-flex justify-content-center">
+        <div class="customunderline"></div>
+      </div>
+
+
+      <div class="timeline" style="margin-top: 50px;">
+        <!-- 1 -->
+        <div class="timeline-item AnimationSection">
+          <div class="timeline-date">2022 - Present</div>
+          <div class="timeline-content">
+            <h5 class="mb-1 fw-semibold">Software Developer/Front-End Developer </h5>
+            <p class="mb-1">KPIT Technologies</p>
+            <p style="color: blue;">Machine Mission simulation (MMS) in React.js and Fleet Tool in React.ts -</p>
+            <ul class="text-muted">
+              <li>Developed & implemented various new features, functionality in react functional, stateless components
+                using React.js, React.ts, Html, CSS technology.</li>
+              <li>Integrated Rest API’S in project using React.js, redux-thunk, Antd, JavaScript & TypeScript
+                technologies in
+                two applications.
+              </li>
+              <li>Designed & created User friendly UI responsively for mobile and desktop view in React.js & React.ts.
+              </li>
+              <li> Designed & Implemented proof of concept to manage Engine data and downloading pdf folder based
+                on calculations for the engine that is called Torsional Tool.</li>
+              <li>Worked on MSSQL to manage multiple Engine data.</li>
+              <li>Maintained and improved the performance of existing software.</li>
+              <li>Clearly and regularly communicate with management and technical support colleagues.</li>
+              <li>Tested and maintained software products to ensure strong functionality and optimization.</li>
+              <li>Recommended improvements to existing software programs as necessary.</li>
+              <li>Handled Troubleshoot, debug, issues from clients and upgrade existing software.</li>
+              <li>Modify existing Web APIs to correct errors, to upgrade interfaces and improve performance.</li>
+              <li>Successfully worked & released various features on production environment.</li>
+              <li>Communicated with clients for various features/requirements & successfully delivered it.</li>
+
+            </ul>
+            <p style="color: blue;"> Power truck & e-Power truck - </p>
+            <ul class="text-muted">
+              <li>Designed & implemented various new features, functionality using Mendix technology.</li>
+              <li>Created multiple UI screens.</li>
+              <li>Successfully released Energy Analyzer tool & Admin Tool.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="timeline-item AnimationSection">
+          <div class="timeline-date">15 May 2022 – 2 Oct 2022</div>
+          <div class="timeline-content">
+            <h5 class="mb-1 fw-semibold">Software Intern</h5>
+            <p class="mb-1">KPIT Technologies</p>
+            <ul class="text-muted">
+              <li>Worked through the software development life cycle gathering user requirements and building the code
+                for the tool.</li>
+              <li>Managed front-end development of client site.</li>
+              <li>Undertook training for react development and project training.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="timeline-item AnimationSection">
+          <div class="timeline-date">Nov 2021 – April 2022</div>
+          <div class="timeline-content">
+            <h5 class="mb-1 fw-semibold">Intern - Web Developer</h5>
+            <p class="mb-1">Ecorise Software Solution LLP</p>
+            <ul class="text-muted">
+              <li>Worked on web application development using MEAN stack.</li>
+              <!-- <li>Managed front-end development of client site.</li>
+              <li>Undertook training for react development and project training.</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Project Details -->
+  <section id="projects" class="py-5 AnimationSection">
+    <div class="container">
+      <h2 class="fw-bold text-center">Project Details</h2>
+      <div class="d-flex justify-content-center">
+        <div class="customunderline "></div>
+      </div>
+
+      <diV style=" margin-top: 50px;">
+        <!-- Project 1 -->
+        <div class="row project-row mb-4 align-items-start AnimationSection">
+          <div class="col-md-8">
+
+            <h4 class="fw-semibold mb-1"> <span class="icon text-primary">🌐</span> MMS Generator set Tool Application,
+              Powerspec Tool Application & Power Choice</h4>
+            <p class="text-muted mb-3 mt-3">
+              Developed & designed various react functional,stateless components using React.js, CSS technology.
+              <br>
+              Integrated rest API's in project using React.js,redux-thunk,Antd,JavaScript & typescript technologies in
+              both application also designed
+              the application responsively for mobile and desktop view.
+              <br>
+              Power Choice has been developed in mendix.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="projectdetails">
+              <p><strong>Technologies:</strong> React.js, Mendix</p>
+              <p><strong>Duration:</strong> Oct 2022 - Present</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Project 2 -->
+        <div class="row project-row mb-4 align-items-start AnimationSection">
+          <div class="col-md-8">
+
+            <h4 class="fw-semibold mb-1"><span class="icon text-warning">💻</span> Smart Institute Application</h4>
+            <p class="text-muted mb-3 mt-3">
+              It is Web application project has been developed using MEAN Stack. Admin will
+              handle all students’ registration process, faculty details.
+              <br>
+              Faculty members can organize
+              online quizzes, can share resources
+              and update attendance. Students can see fee’s structure, upload assignments, and take
+              quizzes.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="projectdetails">
+              <p><strong>Technologies:</strong> Angular, Node.js, MongoDB</p>
+              <p><strong>Duration:</strong> Feb 2022 - July 2022</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Project 3 -->
+        <div class="row project-row mb-4 align-items-start AnimationSection">
+          <div class="col-md-8">
+            <h4 class="fw-semibold mb-1"> <span class="icon text-primary">📊</span> Child Adoption</h4>
+            <p class="text-muted mb-3 mt-3">
+              It is Web Application project has been developed in ASP.net MVC, C# and MSSQL.<br> we can
+              manage orphanage data, child data, adopt child from this project can be used by citizens who
+              wish to adopt child.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="projectdetails"></div>
+            <p><strong>Technologies:</strong> Asp.net MVC, C#, MSSQL</p>
+            <p><strong>Duration:</strong> Aug 2021 - Jan 2022</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <!-- <div class="row project-row mb-4 align-items-start">
+        <div class="col-md-8">
+          <h4 class="fw-semibold mb-1">Inventory Dashboard</h4>
+          <p class="text-muted mb-2">An internal dashboard for tracking inventory stock, supplier orders, and live
+            updates, using role-based access and charts.</p>
+        </div>
+        <div class="col-md-4">
+          <p><strong>Technologies:</strong> Mendix, MS SQL, Chart.js</p>
+          <p><strong>Duration:</strong> Apr 2023 - Jun 2023</p>
+        </div>
+      </div> -->
+    </diV>
+
+    </div>
+  </section>
+
+
+  <!-- Awards -->
+  <section id="awards" class="py-5 AnimationSection">
+    <div class="container">
+      <h2 class="fw-bold text-center">Awards</h2>
+      <div class="customunderline mx-auto"></div>
+
+      <div class="row mt-5">
+        <!-- Award 1 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="award-item text-center p-4 h-100">
+            <div class="award-icon mb-3">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h5 class="fw-semibold">Recipient of the Krown Award at KPIT</h5>
+            <p class="text-muted mb-1">KPIT Technologies</p>
+            <p>Honored with the prestigious Krown Award in recognition of outstanding performance,
+              consistent excellence, and value-driven contributions to project success.</p>
+          </div>
+        </div>
+
+        <!-- Award 2 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="award-item text-center p-4 h-100">
+            <div class="award-icon mb-3">
+              <i class="fas fa-medal"></i>
+            </div>
+            <h5 class="fw-semibold">Awarded High CSAT Recognition by Clients</h5>
+            <p class="text-muted mb-1">KPIT Technologies</p>
+            <p>Earned high Client Satisfaction (CSAT) scores reflecting exceptional client engagement, timely delivery,
+              and quality-focused outcomes.</p>
+          </div>
+        </div>
+
+        <!-- Award 3 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="award-item text-center p-4 h-100">
+            <div class="award-icon mb-3">
+              <i class="fas fa-award"></i>
+            </div>
+            <h5 class="fw-semibold">Recipient of the High Flyer Award at KPIT</h5>
+            <p class="text-muted mb-1">KPIT Technologies</p>
+            <p>Recognized as a High Flyer for demonstrating exceptional initiative, leadership, and impact across
+              critical project milestones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact  -->
+
+  <section id="contact" class="AnimationSection">
+    <div class="contact-section">
+      <div class="section-heading text-center">
+        <h2 class="titleHeader">Contact</h2>
+      </div>
+      <div class="container">
+        <div class="contact-info-wrapper mb-4">
+          <!-- Address -->
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <div class="contact-label">Address</div>
+              <div>Pune, India</div>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <div class="contact-label">Call Us</div>
+              <div>+91 8329177869 </div>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div class="contact-label">Email Us</div>
+              <div>priyahatwar2001@gmail.com </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Media Icons -->
+
+        <div class="social-icons d-flex justify-content-center align-items-center gap-3">
+
+          <!-- Naukri icon as image inside circle -->
+          <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" target="_blank" class="naukri-link">
+            <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt="Naukri" />
+          </a>
+          <a href="https://www.linkedin.com/in/priya-hatwar-a62b6421b/" class="SocialIcon-link"><i class="fab fa-linkedin-in"></i></a>
+          <a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTgbqjCPrjDdGxlRXGNrDJCMsSXwsvqZSxZxdprnrQnKZZDfbwGnmHpFNlNpSzZDQXZbzq" class="SocialIcon-link"><i
+              class="fas fa-envelope"></i></a>
+
+        </div>
+
+
+        <!-- <div class="social-icons"> -->
+        <!-- <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+        <!-- <a href="#"><i class="fab fa-skype"></i></a> -->
+        <!-- <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.naukri.com" target="_blank" class="icon-link">
+  <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt="Naukri" style="height: 22px;" />
+</a>
+
+
+                   
+                    <a href="https://www.linkedin.com/in/priya-hatwar-a62b6421b/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTgbqjCPrjDdGxlRXGNrDJCMsSXwsvqZSxZxdprnrQnKZZDfbwGnmHpFNlNpSzZDQXZbzq"><i class="fas fa-envelope"></i></a>
+ -->
+
+        <!-- </div> -->
+      </div>
+      <div>
+        <p class="copyright">© Copyright Priya Hatwar. All Rights Reserved</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="./Js/main.js"></script>
+</body>
+
+</html>
