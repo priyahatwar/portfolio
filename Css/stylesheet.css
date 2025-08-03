@@ -101,6 +101,48 @@
   }
 }
 
+/* @media (max-width: 767px) {
+  .custom-navbar {
+    padding: 8px 0;
+  }
+
+  .navbar-brand.custom-brand {
+    font-size: 1.2rem;
+  }
+
+  .brand-circle {
+    width: 32px;
+    height: 32px;
+    font-size: 22px;
+    margin-right: 5px;
+  }
+
+  .navbar-toggler {
+    padding: 6px 10px;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+    gap: 8px;
+  }
+
+  .nav-item {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  .nav-link.hover-underline {
+    font-size: 15px;
+    padding: 6px 10px;
+    display: inline-block;
+  }
+
+  .split-background {
+    background: #e7ecfd; 
+  }
+} */
+
+
 
 /* Hero Section */
 .hero-wrap {
@@ -659,3 +701,58 @@ ul.text-muted li {
   opacity: 1;
   transform: translateY(0px);
 }
+
+/* Your original CSS goes here */
+
+/* Mobile-specific overrides */
+/* @media only screen and (max-width: 767px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .container, .section, .row {
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  .hero-wrap h1 {
+    font-size: 32px !important;
+  }
+
+  .hero-wrap h2 {
+    font-size: 20px !important;
+  }
+
+  .big-circle {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 10px auto;
+  }
+
+  .edu-card, .skill-card, .award-item {
+    margin: 15px 0;
+  }
+
+  .timeline::before, .timeline-item::before {
+    display: none;
+  }
+
+  .timeline {
+    border: none;
+    padding: 0;
+  }
+
+  .mouse {
+    bottom: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-icons .icon-link, .SocialIcon-link {
+    margin: 5px;
+  }
+} */
